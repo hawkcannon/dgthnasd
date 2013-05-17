@@ -25,8 +25,6 @@ public class CurvedBullet implements Bullet {
 		this.image = image;
 	}
 	
-	public void test(){}
-	
 	public CurvedBullet(double x, double y, double angle, double theta,
 			double velocity, String imagepath) throws FileNotFoundException {
 		super();
